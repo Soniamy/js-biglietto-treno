@@ -1,6 +1,6 @@
 /*
 1.Chiedere all'utente i km da fare
-2.Se il risultato è diverso da null && è un numero
+2.Se il risultato è diverso da un numero
 3. Fare il calcolo km
   -altrimenti chiedere all'utente i km
 4.Chiedere età
