@@ -18,6 +18,8 @@ let km = prompt('Kilomatri che vuoi fare');
 const KM_PRICE = 0.21;
 
 if (km && !isNaN(km)) {
+    let totCost = km * KM_PRICE;
+    let eta = prompt('Scrivi la tua età');
 } else {
     alert('Non hai inserito un km valido.');
 }
