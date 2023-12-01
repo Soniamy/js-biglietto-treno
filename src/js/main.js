@@ -14,5 +14,10 @@
 11. Allora fare il calcolo della variabile con il calcolo dei km e il -40%
 12.Stampa variabile calcolo totale
 */
+let km = prompt('Kilomatri che vuoi fare');
+const KM_PRICE = 0.21;
 
-console.log('ciao')
+if (km && !isNaN(km)) {
+} else {
+    alert('Non hai inserito un km valido.');
+}
