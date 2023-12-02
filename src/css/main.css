@@ -1,3 +1,6 @@
 :root {
     --wrapper-width: 1400px;
 }
+.text {
+    display: flex;
+}
