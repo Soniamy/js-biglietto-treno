@@ -14,7 +14,7 @@
 11.Allora fare il calcolo della variabile senza sconto
 12.Stampa variabile calcolo totale 
 */
-let km = prompt('Kilometri che vuoi fare');
+const km = prompt('Kilometri che vuoi fare');
 const KM_PRICE = 0.21;
 
 if (km && !isNaN(km)) {
@@ -30,8 +30,10 @@ if (km && !isNaN(km)) {
             style: 'currency',
             currency: 'EUR',
         });
-        document.getElementById('price').innerHTML =
-            numberFormat.format(totCost);
+
+        document.getElementById('price').innerHTML = numberFormat.format(
+            totCost.toFixed(2)
+        );
     } else {
         alert('Non hai inserito il carattere numerico corretto');
     }
